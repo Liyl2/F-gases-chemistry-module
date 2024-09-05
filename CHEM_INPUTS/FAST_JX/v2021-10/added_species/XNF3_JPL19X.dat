@@ -1,0 +1,38 @@
+NF3
+x = x = stratosphere only
+  = p = p-T fit interpolate in pressure then read in press and M next 2 lines
+T(K)   296  000  000      read in up to 3 titles depending on number of T's>0
+NF3  JPL19
+Table 4E-40-1. Recommended Absorption Cross Sections of NF3 at 296 K (1.e-20)
+  14 (f6.2,1x,f8.6)
+184.95 3.44
+190.00 1.16
+195.00 0.393
+200.00 0.132
+205.00 0.0454
+210.00 0.0168
+215.00 0.00698
+220.00 0.00335
+225.00 0.00154
+230.00 0.000801
+235.00 0.000485
+240.00 0.000287
+250.00 0.000111
+255.00 0.000000
+  05 (e14.6)
+     9.261e-01
+  -1.30187e-02
+     6.096e-05
+     -9.75e-08
+      9.76e-12
+
+
+NF3: Papadimitriou et al. [151] used the empirical formula to parameterize
+c log10 X(w, T) = SUM{ an * wn }  + (296-T) SUM{ bn * wn }
+a0 = -218.67         b0 = 0.9261
+a1 = 4.03743         b1 = -0.0130187
+a2 = -0.0295605      b2 = 6.096 x 10-5
+a3 = 9.596 x 10-5    b3 = -9.75 x 10-8
+a4 = -1.3171 x 10-7  b4 = 9.76 x 10-12
+a5 = 4.929 x 10-11
+valid for the temperature range 212-296 K and wavelength range 184.95-250 nm.

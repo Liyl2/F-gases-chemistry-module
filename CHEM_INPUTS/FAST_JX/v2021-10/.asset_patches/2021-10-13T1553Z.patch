@@ -1,0 +1,15 @@
+--- .assets.md5	1970-01-01 00:00:00.000000000 +0000
++++ /tmp/141549.tmpdir/tmp.yxXbXb4tTS	2021-10-13 15:53:16.679341536 +0000
+@@ -0,0 +1,12 @@
++fcc0ac3b359e6d5a31a9752de89f2a3b *./brc.dat
++dc3ba8c1110c64f00dc0dd26cbfa610f *./dust.dat
++9b8354863fd223eeac75158e93f55cf9 *./FJX_j2j.dat
++99e124b373a5257f3e2e70ca32939c66 *./FJX_spec.dat
++bbd4e34acebddd7a794b26ff97e9c999 *./h2so4.dat
++90320e9f5378f605c6283d5295c9f472 *./jv_spec_mie.dat
++231542a4a637c7d6a37184c39616bc8f *./org.dat
++f9af087159e85f288a391a1533db825c *./README
++84dc7ca0102e6488b901cb5309de7943 *./so4.dat
++45866fe0418137c60e24b92b9fa962db *./soot.dat
++4b05c9b30fddac6e2bda3c90f16dff60 *./ssa.dat
++0ec3c19dd965d46aec4c306e9d2022d5 *./ssc.dat

@@ -1,0 +1,23 @@
+HCFC31
+  x = x = stratosphere only
+  = p = p-T fit interpolate in pressure then read in press and M next 2 lines
+T(K)   298  000  000      read in up to 3 titles depending on number of T's>0
+CH2FCl |HCFC31  JPL19
+Table 4F-45. Recommended Absorption Cross Sections of CH2FCl at 298 K (1.e-20)
+  16 (f3.0,1x,f8.3)
+160 47.9
+165 55.9
+170 43.0
+175 23.3
+180 12.5
+185 4.20
+190 1.95
+195 0.544
+200 0.209
+205 0.069
+210 0.0188
+215 0.00560
+220 0.00215
+225 0.00049
+230 0.00026
+235 0.00000

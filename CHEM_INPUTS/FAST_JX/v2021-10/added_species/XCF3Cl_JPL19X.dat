@@ -1,0 +1,41 @@
+CF3Cl
+x = x = stratosphere only
+  = p = p-T fit interpolate in pressure then read in press and M next 2 lines
+T(K)   295  000  000      read in up to 3 titles depending on number of T's>0
+CF3Cl |CFC-13  JPL19
+Table 4F-35. Recommended Absorption Cross Sections of CF3Cl at 295 K (1.e-20)
+  26 (f3.0,1x,f8.6)
+172 1.100
+174 0.970
+176 0.825
+178 0.681
+180 0.542
+182 0.425
+184 0.326
+186 0.244
+188 0.175
+190 0.128
+192 0.090
+194 0.061
+196 0.041
+198 0.028
+200 0.019
+202 0.0128
+204 0.00874
+206 0.00595
+208 0.00406
+210 0.00276
+212 0.00188
+214 0.00128
+216 0.000872
+218 0.000594
+220 0.000405
+222 0.000000
+  01 (f8.5)
+    0.00000
+
+CF3Cl:the empirical formula to parameterize:
+ log10 X(w, T) = SUM{ an * wn }  + (T-273) SUM{ bn * wn }(with all bn=0)
+a0 = -155.88         a1 = 2.0993
+a2 = -1.0486e-02     a3 = 1.6718e-05
+valid for the temperature range 210-300K and wavelength range 172-200 nm.

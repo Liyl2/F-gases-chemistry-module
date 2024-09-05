@@ -1,0 +1,56 @@
+HCFC124
+  x = x = stratosphere only
+  = p = p-T fit interpolate in pressure then read in press and M next 2 lines
+T(K)   295  000  000      read in up to 3 titles depending on number of T's>0
+HCFC124 |CF3CHFCl  JPL19
+Table 4F-50. Recommended Absorption Cross Sections of CF3CHFCl at 295 K (1.e-20)
+  32 (f3.0,1x,f9.6)
+170 13.6
+172 11.1
+174 8.85
+176 6.93
+178 5.33
+180 4.03
+182 3.00
+184 2.20
+186 1.60
+188 1.14
+190 0.772
+192 0.548
+194 0.387
+196 0.267
+198 0.185
+200 0.128
+202 0.0868
+204 0.0594
+206 0.0401
+208 0.0269
+210 0.0186
+212 0.0126
+214 0.00859
+216 0.00610
+218 0.00431
+220 0.00312
+222 0.00214
+224 0.00153
+226 0.00111
+228 0.00082
+230 0.00061
+232 0.00000
+  04 (e14.7)
+-5.795712E-02
+ 1.053901E-03
+-6.530379E-06
+ 1.382056E-08
+
+
+HCFC124:Gillotay and Simon parameterized the cross sections and the temperature 
+dependence using an empirical polynomial expansion:
+c log10 σ(λ, T) = ∑An λn + (T–273) × ∑Bnλn
+A0 = –101.230250         B0 = –5.795712 × 10–2
+A1 = 1.333519            B1 = 1.053901 × 10–3
+A2 = –6.888672 × 10–3    B2 = –6.530379 × 10–6
+A3 = 1.114172 × 10–5     B3 = 1.382056 × 10–8
+valid for the temperature range 210–300 K and wavelength range 170–230 nm.
+
+

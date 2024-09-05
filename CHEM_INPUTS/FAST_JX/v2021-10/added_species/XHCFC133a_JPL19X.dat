@@ -1,0 +1,27 @@
+HCFC133a
+  x = x = stratosphere only
+  = p = p-T fit interpolate in pressure then read in press and M next 2 lines
+T(K)   298  000  000      read in up to 3 titles depending on number of T's>0
+HCFC133a |CF3CH2Cl  JPL19
+Table 4F-52. Recommended Absorption Cross Sections of CF3CH2Cl at 298 K (1.e-20)
+  19 (f3.0,1x,f8.3)
+160 59.4
+165 64.6
+170 56.4
+175 37.3
+180 22.8
+185 11.6
+190 6.20
+195 2.95
+200 1.14
+205 0.598
+210 0.328
+215 0.169
+220 0.0887
+225 0.0226
+230 0.0147
+235 0.00404
+240 0.00181
+245 0.00054
+250 0.00000
+

@@ -1,0 +1,46 @@
+CFC113a
+x = x = stratosphere only
+  = p = p-T fit interpolate in pressure then read in press and M next 2 lines
+T(K)   296  000  000      read in up to 3 titles depending on number of T's>0
+CFC113a | JPL19
+Table 4F-39. Recommended Absorption Cross Sections of CCl3CF3(CFC-113a) at 296 K (1.e-20)
+  22 (f5.1,1x,f8.3)
+194.0 117.5
+196.0 98.2
+198.0 80.2
+200.0 64.1
+202.0 50.3
+204.0 38.8
+206.0 29.4
+208.0 22.0
+210.0 16.2
+212.0 11.8
+214.0 8.56
+216.0 6.13
+218.0 4.36
+220.0 3.08
+222.0 2.17
+224.0 1.52
+226.0 1.07
+228.0 0.748
+230.0 0.523
+232.0 0.367
+234.0 0.258
+236.0 0.000
+  06 (e14.8)
+   2.89174e+00
+  -3.48043e-02
+    3.6233e-05
+   1.08853e-06
+  -5.25744e-09
+   7.26095e-12
+
+CCl3CF3: the empirical formula to parameterize
+c lnX(w, T) = SUM{ an * wn }  + (T-296) SUM{ bn * wn }
+a0 = -319.173        b0 = 2.89174
+a1 = 2.70954         b1 = -0.0348043
+a2 = 0.00457404      b2 = 3.6233e-05
+a3 = -0.0001288147   b3 = 1.08853e-06
+a4 = 4.71409e-07     b4 = -5.25744e-09
+a5 = -5.35388e-10    b5 = 7.26095e-12
+valid for the temperature range 207-323 K and wavelength range 192.5-235 nm.
